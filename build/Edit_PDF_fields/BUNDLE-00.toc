@@ -1,0 +1,3 @@
+([('Edit_PDF_fields',
+   '/Users/viktoriiakrain/PycharmProjects/PythonProject/dist/Edit_PDF_fields',
+   'EXECUTABLE')],)
