@@ -1,5 +1,6 @@
-def scan_pdf_fields(param):
-    passw-level editing of AcroForm fields in PDF files.
+# Edit PDF Fields
+
+A GUI tool for low-level editing of AcroForm fields in PDF files.
 It allows you to inspect and manipulate field properties (`/Rect`, `/P`) directly via pikepdf, without re-rendering the document.
 
 ## Features
@@ -195,5 +196,3 @@ TARGET_PAGE_INDEX = 0               # 0 = first page
 - **`ModuleNotFoundError: No module named '_tkinter'`** — Tkinter is not installed for your Python. On Linux install `python3-tk`; on Windows reinstall Python with the *tcl/tk and IDLE* option enabled.
 - **`uv: command not found`** — restart the terminal after installing uv, or add `~/.local/bin` to your `PATH`.
 - **Window opens but no fields are listed** — the PDF likely has no AcroForm fields, or all widgets lack `/T` names. Use **DEBUG Fields** to dump raw widget info.
-
-Good luck with your PDF field editing!
